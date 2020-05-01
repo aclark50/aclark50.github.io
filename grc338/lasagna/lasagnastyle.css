@@ -1,0 +1,66 @@
+/*CSS DOCUMENT*/
+body {
+    background-color: tan;
+    font-family: sans-serif;
+}
+
+header{
+margin: 0em 1em 1em 1em;
+padding: 1em 1em 2em 1em;
+background-color: ivory;   
+text-align: center;
+color: darkred;
+}
+
+h1{
+font-size: 30pt;
+background-color: ivory;  
+}
+
+h2 {
+font-size: 17pt;
+margin: 0.5em 0.5em 0.5em 0.5em; 
+text-transform: uppercase;  
+}
+
+h3 {
+    font-size: 15pt;
+    color: darkred;
+}
+
+img {
+float: left;
+width: 50%;
+padding: 1em 1em 1em 1em;
+}
+
+div.intro {
+float:right;  
+background-color: ivory;
+padding: 0.5em 2em 0.5em 0.5em;
+margin: 0em 1em 1em 1em;
+font-style: italic;
+line-height: 20pt;
+}
+
+div.ingredients {
+padding: 1em 2em 1em 3em;
+margin: 0em 1em 1em 1em;
+line-height: 20pt;
+background: ivory;
+}
+
+div.directions {
+padding: 1em 2em 1em 3em;
+margin: 0em 1em 1em 1em;
+line-height: 20pt;
+background-color: ivory;
+font-size: 12pt;
+}
+
+footer {
+font-family: sans-serif;
+margin: 0em 1em 1em 1em;
+font-size: 15pt;
+color: ivory;
+}
