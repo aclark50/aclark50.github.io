@@ -1,0 +1,68 @@
+/*CSS DOCUMENT*/
+nav ul li a {
+    text-decoration: none;
+    color: #F3AA68;
+}
+nav ul li {
+    list-style:none;
+    display: inline;
+    margin-right: 2em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding-left: 1em;
+    
+}
+.intro{
+   font-family: sans-serif;
+     text-align: center;
+      color: #F3AA68;
+
+}
+.logo{
+    width:100%;
+}
+p{
+    line-height: 1.5em;
+      font-family: sans-serif;
+    padding-left: 0.5em;
+}
+nav ul {
+    padding: 0;
+}
+h1{
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+    padding-top: 0.5em;
+}
+h3{
+     font-family: sans-serif;  
+}
+h4{
+   font-family: sans-serif;   
+}
+ul{
+   list-style:none;  
+}
+img{
+    width:50%;
+     padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    float: right;
+}
+.menucategory{
+    padding-left: 1em;
+ font-family: sans-serif;
+    
+}
+.menuitem{  
+font-family: sans-serif;
+}
+.maps{
+    text-decoration: none;
+    color: #F3AA68;
+}
