@@ -1,0 +1,85 @@
+/*CSS DOCUMENT*/
+body {
+    font-family: sans-serif;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #f3aa68;
+    padding-left: 1em;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 1em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+.restrictions{
+      text-align: center;
+      max-width: 30em;
+      color: #f3aa68;
+    line-height:2em;
+}
+.intro {
+    text-align: center;
+    color: #f3aa68;
+}
+.streetview {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background-color: #fff1d6;
+    float:left;
+    width: 90%;
+    margin: 0em 0em 1em 1em;
+}
+.logo {
+    width: 100%;
+}
+.location{
+    padding-left: 1em;
+}
+p {
+    line-height: 1.5em;
+    padding-right: 5em;
+    margin-left: 1em;
+    max-width: 30em;
+}
+
+nav ul {
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+img {
+    width:50%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    float: right;
+    border-left: 1em;
+}
+h1{
+    color: #f3aa68;
+    padding-left: 0.5em;
+}
+.menucategory {
+    padding-left: 1em;
+    color: #f3aa68;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.menuitem{
+    max-width: 27em;
+}
+.maps {
+    text-decoration: none;
+    color: #f3aa68;   
+}
+@media only screen and (min-width:40em){
+    .streetview{
+       float:left;
+       padding: 1em 1em 1em 1em;
+       width:40%;
+    }
+    
+}
