@@ -1,0 +1,237 @@
+<!DOCTYPE CSS>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+/*Responsive Nav code from  tutorial by Coding Nepal https://www.codingnepalweb.com/2020/04/responsive-menu-bar-in-html-css.html*/
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'montserrat',sans-serif;
+  font-weight: 100;
+}
+
+.welcome {
+  font-family: "sourse serif pro", serif;
+  font-weight: 100;
+  font-size: 3em;
+  color:#ffffff;
+  float:right;
+  padding:0.5em 0.5em 0.5em 0.5em;
+  background: #b4b7ac;
+  margin-right: 5%;
+    margin-top: 15%
+}
+
+header {
+  display: block;
+  position: relative;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: hsla(52, 20%, 85%, 0.25);
+  font-family: 'Montserrat',sans-serif;
+} 
+.main-image {
+    width: 50%;
+    padding-left: 3em;
+    padding-top: 3em;
+    overflow: auto;
+}
+#object-position-1{
+    object-position: bottom right;
+}
+.palm {
+  width: 50%;
+ float: right;
+  margin: 0;
+}
+
+.submission-form {
+  text-align: left;
+  margin: 4%;
+  float: left;
+  line-height: 25pt;
+  letter-spacing: 0.5pt;
+  font-weight: 200;
+}
+
+#sendBtn {
+  border: 0;
+  background: #c4bab4;
+  color: #484848;
+  padding: 7%;
+  width: auto;
+  letter-spacing: 0.2pt;
+  cursor: pointer;
+}
+
+/*<!-- responsive nav based off coding nepal's tutorial*/
+nav{
+    background: #c4bab4;
+    height:100px;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+label.logo{
+    color: #ffffff;
+    font-family: 'source serif pro', serif; 
+    font-size: 45px;
+    line-height: 100px;
+    padding-left: 50px;  
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 70px;
+    margin: 0 10px;  
+}
+nav ul li a {
+    color:#484848;
+    font-size: 13px;
+    letter-spacing: 2pt;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #ffffff;
+    float: right;
+    line-height: 100px;
+    margin-right: 40px;
+    cursor:pointer;   
+    display:none;
+}
+#check{
+    display:none;
+}
+@media (max-width:952px){
+    label.logo{
+        font-size:40px;
+        padding-left:40px; 
+    }  
+    nav ul li a{
+        font-size:10px;
+    }
+}
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #c4bab4;
+        top: 80px;
+        left: -200%;
+        text-align:center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display:block;
+        position: relative;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #ffffff;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+
+/*footer based off coding nepal's tutorial*/
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #c4bab4;
+}
+
+.footerlogo {
+  width: 200px;
+  height: 100px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box .content {
+  margin: 10px 0 0 0;
+  position: relative;
+}
+
+.footerinfo {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.25pt;
+  color: #484848;
+  padding: 0px 40px 10px;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    position: fixed;
+    bottom: 0px;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footerlogo {
+    width: 150px;
+    height: 75px;
+  }
+
+  .footerinfo {
+    padding: 0px 40px 10px;
+    line-height: 7pt;
+    font-size: 10pt;
+  }
+
+  .submission-form {
+    margin: 5em;
+      float:left;
+    text-align: left;
+    line-height: 20pt;
+    overflow: auto;
+    letter-spacing: 1pt;
+    font-size: 9pt;
+  }
+    .main-image{
+        width:80%; 
+    }
+    .welcome{
+        font-size:1.5em;
+        float:left;
+        margin-left: 2em;
+        margin-top: 0;
+    }
